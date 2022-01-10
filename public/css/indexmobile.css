@@ -1,0 +1,99 @@
+/* fonts 
+font-family: 'Nova Square', cursive;
+font-family: 'Open Sans', sans-serif; */
+*{
+    font-size: 8px;
+    background-color: #001f3f;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nova Square', cursive;
+}
+
+/* Header style  */
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+/* .header{
+    align-items: left;
+    color: aliceblue;
+} */
+.h1primary{
+    background-color: #111111;
+    color: aliceblue;
+    font-size: 2rem;
+    justify-content: flex-start;
+    padding-left: 1rem ;
+}
+.signup{
+    background-color: #FFDC00;
+    margin-top: 1rem;
+    padding: 2px 10px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+.signup:hover{
+    font-size: 1.6rem;
+    box-shadow: 3px 3px 3px whitesmoke;
+    cursor: pointer;
+
+}
+
+/* main class styling */
+.main{
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: teal; */
+}
+.heading{
+    background-color: #001f3f;
+    color: aliceblue;
+    font-size: 2.2rem;
+    justify-content: center;
+    padding-left: 1rem ;
+}
+.subject{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 2rem;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border: solid 3px black;
+    border-radius: 0.5rem;
+    background-color: #66fcf6;
+    font-size: 1.8rem;
+}
+.div:hover{
+    font-size: 1.85rem;
+}
+.div a{
+    margin: 1rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    background-color: #66fcf6;
+}
+
+/* Footer styling */
+footer{
+    background-color:#111111;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+    display: none;
+}

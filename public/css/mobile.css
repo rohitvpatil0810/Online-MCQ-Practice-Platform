@@ -1,0 +1,233 @@
+/* fonts 
+font-family: 'Nova Square', cursive;
+font-family: 'Open Sans', sans-serif; */
+*{
+    font-size: 15px;
+    background-color: #001f3f;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nova Square', cursive;
+}
+
+/* Header style  */
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    height: 12vh;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+}
+/* .header{
+    align-items: left;
+    color: aliceblue;
+} */
+.h1primary{
+    background-color: #111111;
+    color: aliceblue;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    padding-left: 1rem ;
+}
+.signup{
+    background-color: #FFDC00;
+    /* justify-content: right; */
+    margin-top: 0.5rem;
+    padding: 2px 10px;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.signup:hover{
+    font-size: 1.1rem;
+    box-shadow: 3px 3px 3px whitesmoke;
+    cursor: pointer;
+
+}
+
+/* main class styling */
+.main{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: teal; */
+}
+
+.container{
+    width: 95vw;
+    height: 78vh;
+    padding: 1.5%;
+    margin: 1%;
+    /* font-size: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #66fcf6;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    /* background-color: teal; */
+}
+
+.que{
+    width: 90vw;
+    height: 75vh;
+    background-color: #66fcf6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    
+    font-size: 1rem;
+    background-color: #66fcf6;
+    /* padding: 1% 5%; */
+    text-align: left;
+}
+/* .btn{
+    background-color: #66fcf6;
+    padding: 0.5rem 0.5rem;
+}
+.option{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #05a28b;
+    font-size: 1.8rem;
+    width: 50vw;
+}
+.option:hover{
+    font-size: 1.9rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #000000;
+    
+} */
+.option{
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    background-color: #05a28b;
+    font-size: 1rem;
+    width: 80vw;
+}
+.div{
+    background-color: #05a28b;
+    font-size: 1rem;
+}
+.div:hover{
+    font-size: 1.1rem;
+}
+.option:hover{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    background-color: #05a28b;
+    font-size: 1.1rem;
+    /* width: 50vw; */
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #000000;
+}
+input{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+.quenav{
+    width: 75vw;
+    background-color: #66fcf6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbtn{
+    margin: 5rem;
+    width: 25vw;
+    font-size: 1rem;
+    border: 3px solid #05a28b;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.navbtn:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #000000;
+    
+}
+.reviewquenav{
+    width: 75vw;
+    background-color: #66fcf6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rtnhome{
+    width: 75vw;
+    background-color: #66fcf6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: black;
+}
+.submit{
+    background-color: #66fcf6;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 15px;
+    width: 31vw;
+    font-size: 1rem;
+    border: 3px solid #05a28b;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: 1.1rem;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+/* Footer styling */
+footer{
+    background-color:#111111;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+    display: none;
+}
+/* .score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #66fcf6;
+} */
+.score_style{
+    font-size: 1rem;
+    background-color: #66fcf6;
+    /* padding: 1% 5%; */
+    text-align: left;
+}
+.tick{
+    background-color: #05a28b;;
+}
